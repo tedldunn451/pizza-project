@@ -1,0 +1,78 @@
+body {
+    background-color: #FFC;
+    padding: 20px;
+}
+
+button {
+    background-color: #C60;
+    border-radius: 10px;
+    color: #FFF;
+    height: 60px;
+    margin-top: 5px;
+    width: 240px;
+}
+
+button:hover {
+    background-color: RGBA(204, 102, 0, 0.75);
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h4 {
+    color: #C60;
+    margin-left: 70px;
+}
+
+header {
+    color: #C60;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    background-color: #FFF;
+    border: 3px solid #C60;
+    margin: 0 auto;
+    width: 30%;
+}
+
+td {
+    padding-left: 20px;
+}
+
+tr:first-child {
+    color: #C60;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+tr:last-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+#receipt {
+    display: none;
+}
